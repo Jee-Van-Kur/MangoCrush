@@ -1,2 +1,2 @@
 # MangoCrush
-Your favourite verstile offline dictionary !
+Your favourite versatile offline dictionary !
