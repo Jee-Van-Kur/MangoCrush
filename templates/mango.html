@@ -2,15 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>MangoCrush</title>
+    <title>MangoCrush-meaning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='meaning.css') }}">
+    <!--link rel="stylesheet" href="meaning.css"-->
+    <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js" integrity="sha384-qD/MNBVMm3hVYCbRTSOW130+CWeRIKbpot9/gR1BHkd7sIct4QKhT1hOPd+2hO8K" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1> {{name}} </h1>
-    <ul>
-      {% for item in result %}
-        <li> {{item}} </li>
-      {% endfor %}
-    </ul>
-
+    <div class="card">
+      <div class="heading">
+        <h2> {{name}} </h2>
+      </div>
+        <div class="meaning">
+          <ul style="list-style-type:none;">
+            {% for item in result %}
+              <li> {{item}} </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="search-box">
+      <form action = "http://localhost:4996/meaning" method = "POST">
+        <input class="search-txt" type = "text" name = "word" placeholder=" Another word "/>
+        <button type = "submit" class="search-btn"> <i class="fas fa-search"></i> </button>
+        </form>
+      </div>
   </body>
 </html>
