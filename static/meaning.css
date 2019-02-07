@@ -2,16 +2,26 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Sans-serif"
+  font-family: "Sans-serif";
 }
 
 body{
   background: #f9ca24;
 }
 
+.author{
+  position: absolute;
+  font-family: "Sans-serif";
+  bottom: 0%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+
 .card{
   background: #2c3e50;
   position: absolute;
+  box-shadow: 5px 5px 10px black;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);

@@ -174,3 +174,12 @@ h1 span:nth-child(14) {
   line-height: 40px;
   width: 0px;
 }
+
+.author{
+  position: absolute;
+  font-family: "Sans-serif";
+  bottom: 0%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+}
