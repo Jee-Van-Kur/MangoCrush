@@ -1,7 +1,7 @@
 # MangoCrush [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-green.svg)](https://github.com/Xhiwankur/MangoCrush/pulls)
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
-A flexible offline dictionary. Operates both `in Terminal` and as `Web-app`
+A flexible offline dictionary to store your lingos. Operates both `in Terminal` and as `Web-app`
 
 ### Prerequisites
 
